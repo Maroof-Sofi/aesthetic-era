@@ -22,7 +22,14 @@
     color: var(--orange);
     
 }
- @media screen and(max-width:768px){
+ @media screen and (max-width:768px){
+   
+.menu{
+    float: right;
+    width:25px ;
+
+}
+
  .header>:nth-child(2)
  {
     position: fixed;
@@ -31,6 +38,7 @@
  }    
 
   .header-menu{ 
+    
      display: flex;
     flex-direction: column;
     background-color: var(--appColor);

@@ -10,21 +10,20 @@ const Testimonials = () => {
   const [selected, setSelected] = useState(0);
   const tLength= testimonialsData.length;
     return (
-    <div className='Testimonials'>
+    <div className='Testimonials testimonials'>
          <div className="left-t">
             <span>Testimonials</span>
             <span className='stroke-text'>What they</span>
             <span>say about us</span>
              <motion.span
              key={selected}
-              
              initial={{opacity: 0, x:-100}}
              animate={{opacity: 1, x:0}}
              exit={{opacity : 0, x:100}}
              transition={transition}
              >{testimonialsData[selected].review}</motion.span>
-             <span>
-                <span style={{color: 'var(--orange)'}}>
+             <span >
+                <span  style={{color: 'var(--orange)'}}>
                     {testimonialsData[selected].name}
                 </span>{" "}
                 - {testimonialsData[selected].status}

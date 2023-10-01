@@ -15,16 +15,16 @@
         {/* CARD SECTION */}
 
           <div className="plans">
-          {plansData.map((plan, i)=>(
-            <div className="plan" key={i}>
+          {plansData.map((plan, index)=>(
+            <div className="plan" key={plan.name}>
                {plan.icon}
                <span>{plan.name}</span>
                <span>$ {plan.price}</span>
                <div className="features">
-                  {plan.features.map((feature, i)=>(
+                  {plan.features.map((feature, index)=>(
                   <div className="feature">
                      <img src={whiteTick} alt="" />
-                     <span key={i}>{feature}</span>
+                     <span key={index}>{feature}</span>
                   </div>
                   ))}
                </div>
