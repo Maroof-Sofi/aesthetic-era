@@ -13,7 +13,6 @@ const [menuOpened, setMenuOpened] = useState(false);
     <img src = {Logo} alt = "" className='logo'/>
     {menuOpened===false && mobile===true ? (
         <div
-        className='menu'
         style={{backgroundColor: 'var(--appColor)', 
         padding: '0.5rem', 
          height: '1.5rem' ,
