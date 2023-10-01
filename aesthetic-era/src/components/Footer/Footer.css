@@ -28,7 +28,9 @@
 }
 
 .logo-f > img {
-    width: 10rem;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
 }
 
 .footer-blur-1 {

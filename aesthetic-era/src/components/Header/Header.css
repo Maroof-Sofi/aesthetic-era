@@ -2,13 +2,14 @@
     display: flex;
     justify-content: space-between;
 }
-.header img{
+/* .header img{
     width: 11rem;
     height: 11rem;
-}
+} */
 .logo{
-    width: 10rem;
-    height: 3rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
 }
 .header-menu{
     list-style: none;
